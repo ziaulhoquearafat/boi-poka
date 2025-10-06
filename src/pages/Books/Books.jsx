@@ -2,6 +2,7 @@ import { Suspense } from 'react';
 import Book from './Book';
 
 const Books = ({ booksData }) => {
+  // console.log('booksData', booksData);
   return (
     <div>
       <h2 className="font-bold text-3xl text-[#131313] text-center mb-12">
